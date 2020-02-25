@@ -18,6 +18,7 @@ class program
 			System.out.print(num[i]+" ");
 	
 		}
+		System.out.println("Hello world");
 		scn.close();
 	}
 }

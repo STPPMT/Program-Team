@@ -19,6 +19,7 @@ class program
 	
 		}
 		System.out.println("Hello world");
+		//+++
 		scn.close();
 	}
 }

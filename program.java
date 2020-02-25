@@ -19,7 +19,5 @@ class program
 	
 		}
 		scn.close();
-		//LOV 
-		//Love You
 	}
 }

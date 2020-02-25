@@ -20,6 +20,7 @@ class program
 		}
 		scn.close();
 		//LOV 
-		//Love You
+		//i Love You
+		//i miss you
 	}
 }

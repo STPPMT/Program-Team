@@ -16,8 +16,6 @@ class program
 			plus=plus+num[i];
 		
 		}
-			
-		
 		sum=plus%11;
 		return sum;
 	}

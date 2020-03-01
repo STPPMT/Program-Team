@@ -1,6 +1,22 @@
+import java.util.Arrays;
+import java.util.Scanner;
 import java.util.Scanner;
 class program
 {
+	 static String[] mt1(String n)
+	{
+		String x=n.replace(" ","");
+			   x=x.replace("-","");
+		//System.out.printl    n(y);
+		String j[]=new String[x.length()];
+
+		for(int i=0;i<x.length();i++)
+		{
+			char a=x.charAt(i);
+			j[i]=Character.toString(a);
+		}
+		return j;
+	}
 	static int[] mt2(String str[]){
 		int num[]=new int[str.length-1];
 		for(int i=0,j=13;i<str.length-1;i++,j--){

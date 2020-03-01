@@ -21,6 +21,8 @@ class program
 	}
 	public static void main(String[] args) 
 	{
+		//1. return result String[]
+		int num[]=mt2(result);
 		Scanner scn=new Scanner(System.in);
 		String sum[]=new String[]{"1","2","0","1","5","4","1","4","6","2","2","3","4"};
 		int num[]=mt2(sum);
@@ -30,6 +32,10 @@ class program
 		System.out.println(num2);
 		System.out.println("Hello world");
 		//+++
+		for(int i=0;i<sum.length-1;i++){
+			System.out.print(num[i]+" ");
+	
+		}
 		scn.close();
 	}
 }
